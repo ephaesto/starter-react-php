@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "✨ starter-react-php",
+			"path": "."
+		},
+		{
+			"name": "🚀 backend",
+			"path": "apps/backend"
+		},
+		{
+			"name": "🚀 frontend",
+			"path": "apps/frontend"
+		}
+	],
+	"settings": {}
+}

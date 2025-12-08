@@ -1,0 +1,14 @@
+{
+	"name": "backend",
+	"version": "0.0.0",
+	"author": {
+		"name": "Emeric Lebbrecht",
+		"email": "emeric.lebbrecht@gmail.com"
+	},
+	"license": "MIT",
+	"turbo": {
+		"tags": [
+			"back"
+		]
+	}
+}
