@@ -1,0 +1,54 @@
+# Node
+node_modules/
+tsconfig.tsbuildinfo
+dist/
+
+./packages/**/node_modules/
+./packages/**/dist/
+./packages/**/tsconfig.tsbuildinfo
+
+./apps/**/node_modules/
+./apps/**/dist/
+./apps/**/tsconfig.tsbuildinfo
+
+
+
+*.log
+./packages/**/*.log
+./packages/**/**/*.log
+
+./apps/**/*.log
+./apps/**/**/*.log
+
+# Env
+.env
+.env.local
+
+./packages/**/.env
+./packages/**/.env.local
+
+./apps/**/.env.local
+./apps/**/.env
+
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# pnpm
+.pnpm-store/
+
+# custom
+coverage/
+log/**/*.log.txt
+*.log.txt
+.turbo/
+
+./packages/**/coverage/
+./packages/**/.turbo/
+
+./apps/**/coverage/
+./apps/**/.turbo/

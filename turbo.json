@@ -1,0 +1,11 @@
+{
+    "tasks": {
+        "test": {
+            "dependsOn": ["^test"],
+            "outputs": ["coverage/**"]
+        },
+        "lint": {
+            "outputs": []
+        }
+    }
+}
